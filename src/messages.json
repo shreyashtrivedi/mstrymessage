@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Hello",
+    "content": "This is the first message"
+  },
+  {
+    "id": 2,
+    "title": "Welcome",
+    "content": "This is the second message"
+  }
+]

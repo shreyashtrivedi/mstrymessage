@@ -1,0 +1,29 @@
+NEXTAUTH KA POORA MAMLA OPTIONS PE HI DEPENDENT HAI
+SARA PROVIDERS (CREDDENTIAL,GITHUB VGERH) ISI FILE ME ATA HAI
+
+
+directly pages use kra hai to aap sirf route nhi define kr rhe 
+ab control nextauth pe h 
+to sign in ka control poora chala gya usko
+to nextauth hi design krlega page hume design bhi nhi karna
+
+
+
+abhi user se value nikalna chahenge to vo nahi nikalne dega
+user ke andar field humne insert kra h nextauth ko nahi pata un fields ke bare me
+
+
+token ke andar kafi values agyi h jaha bhi token ka access mila 
+sari values nikal lenge
+
+sari values session me bhi le skte hai
+actually nextauth session based strategy pe chalta hai
+use bhi modify krenge
+
+
+route.ts me ek handler method banana padtaa hai 
+sare authoptions apko isi me dene hai
+koi bhi provider change ya add krna h to alag se file bani hi hui h usme jake kardo
+
+config vo file jaha aap likhte ho ki kaha kaha apka middleware 
+run kare
